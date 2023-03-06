@@ -1,0 +1,30 @@
+:root {
+    --lightblue: #ECF2FF;
+    --navy: #3E54AC;
+    --darkpurple: #655DBB;
+    --lightpurple: #BFACE2;
+
+}
+
+body{
+    color: var(--navy);
+}
+
+
+
+/* Navigation Bar */
+.nav-section{
+    background-color: var(--lightblue);
+    /* color: var(--navy) !important; */
+}
+
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+
+#navbarSocial>ul>li {
+    padding-right: 1rem;
+    font-size: 1.25rem;
+}
